@@ -40,6 +40,7 @@
 
 class SbVec2s;
 class SbVec3f;
+class SoBase;
 class SoNode;
 class SoPath;
 class SoSeparator;
@@ -64,6 +65,8 @@ class Color;
 
 class SoGroup;
 
+void intrusive_ptr_add_ref(SoBase* p);
+void intrusive_ptr_release(SoBase* p);
 
 namespace Gui
 {

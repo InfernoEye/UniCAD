@@ -161,7 +161,9 @@ PyMOD_INIT_FUNC(PartDesignGui)
     PartDesignGui::ViewProviderEmboss        ::init();
     PartDesignGui::ViewProviderMoveFace      ::init();
     PartDesignGui::ViewProviderUnifiedRevolve::init();
+    PartDesignGui::ViewProviderPipe          ::init();
     PartDesignGui::ViewProviderUnifiedSweep  ::init();
+    PartDesignGui::ViewProviderLoft          ::init();
     PartDesignGui::ViewProviderUnifiedLoft   ::init();
     PartDesignGui::ViewProviderTransformed   ::init();
     PartDesignGui::ViewProviderMirrored      ::init();
@@ -179,8 +181,6 @@ PyMOD_INIT_FUNC(PartDesignGui)
     PartDesignGui::ViewProviderSubShapeBinderPython::init();
     PartDesignGui::ViewProviderBoolean       ::init();
     PartDesignGui::ViewProviderPrimitive     ::init();
-    PartDesignGui::ViewProviderPipe          ::init();
-    PartDesignGui::ViewProviderLoft          ::init();
     PartDesignGui::ViewProviderHelix         ::init();
     PartDesignGui::ViewProviderBase          ::init();
     // clang-format on

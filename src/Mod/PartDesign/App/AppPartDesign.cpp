@@ -135,12 +135,12 @@ PyMOD_INIT_FUNC(_PartDesign)
     PartDesign::Emboss                      ::init();
     PartDesign::MoveFace                    ::init();
     PartDesign::UnifiedRevolve              ::init();
-    PartDesign::UnifiedSweep                ::init();
-    PartDesign::UnifiedLoft                 ::init();
     PartDesign::Pipe                        ::init();
+    PartDesign::UnifiedSweep                ::init();
+    PartDesign::Loft                        ::init();
+    PartDesign::UnifiedLoft                 ::init();
     PartDesign::AdditivePipe                ::init();
     PartDesign::SubtractivePipe             ::init();
-    PartDesign::Loft                        ::init();
     PartDesign::AdditiveLoft                ::init();
     PartDesign::SubtractiveLoft             ::init();
     PartDesign::Helix                       ::init();

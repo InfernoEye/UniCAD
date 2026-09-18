@@ -33,6 +33,7 @@
 #include <Base/Persistence.h>
 
 #include "DynamicProperty.h"
+#include <climits>
 
 namespace Base {
 class Writer;
